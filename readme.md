@@ -1,4 +1,13 @@
-follow these steps to connect to pylon SDK
+
+Intro
+-----
+An example on how to use a [Basler camera](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace/aca1920-25uc/) with openframeworks.cc
+
+Install the [pylon macOS SDK](https://www.baslerweb.com/en/products/software/pylon-macos/)
+
+Basler SDK setup
+-----
+Now follow these steps to connect to pylon SDK to your OF project:
 file:///Applications/pylon%20Programmer's%20Guide%20and%20API%20Reference.app/Contents/Resources/Html/pylon_programmingguide.html
 
 
@@ -20,3 +29,6 @@ $(PYLON_LIBRARY_DIR)/Frameworks/pylon.framework/Headers/GenICam
 Add the following Runpath Search Path for Release and Debug configurations to your build target (Build Settings -> Linking -> Runpath Search Path):
 
 $(PYLON_LIBRARY_DIR)/Frameworks
+
+Install screenshots
+-----
