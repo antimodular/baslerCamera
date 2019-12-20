@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<pylonCam>
+	<autoExposure>0</autoExposure>
+	<exposure>0.007585</exposure>
+	<autoGain>0</autoGain>
+	<gain>0</gain>
+	<gamma>0.37</gamma>
+	<lightSourcePreset>0</lightSourcePreset>
+</pylonCam>

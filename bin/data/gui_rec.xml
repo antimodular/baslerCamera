@@ -1,0 +1,36 @@
+<splitting>
+	<version>_1</version>
+	<main>
+		<fps>0</fps>
+		<showGui>0</showGui>
+		<fullscreen>1</fullscreen>
+		<showDebug>0</showDebug>
+		<eyeDist>164.796</eyeDist>
+		<splitWidth>145</splitWidth>
+		<origionX>287</origionX>
+		<origionY>345</origionY>
+	<stagger>1</stagger>
+	</main>
+<splitting/>
+<rec>
+		<rec>
+			<allowRecording>0</allowRecording>
+			<minRecFrames>13</minRecFrames>
+			<maxRecFrames>60</maxRecFrames>
+		<minRecPause>1.27551</minRecPause>
+		<endTrim>6</endTrim>
+		<remoteTransfer>0</remoteTransfer>
+		<allowMovFiles>1</allowMovFiles>
+		</rec>
+	</rec>
+<group>
+		<rec>
+			<allowRecording>0</allowRecording>
+			<minRecFrames>24</minRecFrames>
+			<maxRecFrames>60</maxRecFrames>
+			<minRecPause>1.53061</minRecPause>
+			<endTrim>22</endTrim>
+		<remoteTransfer>0</remoteTransfer>
+		</rec>
+	</group>
+</splitting>

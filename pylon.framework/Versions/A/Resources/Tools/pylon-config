@@ -1,0 +1,58 @@
+#!/bin/sh
+
+MAJOR=5
+MINOR=0
+SUBMINOR=5
+BUILD=8973
+TAG=
+
+printHelp() {
+  echo  "\
+Usage: $0 <command>... [library]
+
+Return metainformation about the given library:
+    pylon               the pylon C++ library (default)
+
+  Allowed Commands:  
+    -h, --help          Show this help message
+    --version           Prints the full pylon version
+    --version-major     Prints the major version
+    --version-minor     Prints the minor version
+    --version-subminor  Prints the subminor version
+    --version-build     Prints the build version
+"
+}
+
+if [ -n "$TAG" ]; then
+    TAG="-$TAG"
+fi
+
+cmd=$1
+if [ -z "$cmd" ]; then
+    cmd="--help"
+fi
+
+while [ -n "${cmd}" ]; do
+    case $cmd in
+        --version) echo -n $MAJOR.$MINOR.$SUBMINOR.$BUILD$TAG ;;
+        --version-major) echo -n $MAJOR ;;
+        --version-minor) echo -n $MINOR ;;
+        --version-subminor|--version-tiny) echo -n $SUBMINOR ;;
+        --version-build) echo -n $BUILD ;;
+
+        -h|--help) printHelp; exit 1 ;;
+        pylon) ;;  # ignore library which is handled above
+        *)
+          echo "Unknown command $cmd"
+          printHelp
+          exit 1
+          ;;
+    esac
+    shift
+    cmd=$1
+    if [ -n "$cmd" ]; then
+        echo -n " "
+    fi
+done
+
+echo ""

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<group>
+	<version>_1</version>
+	<fps>52</fps>
+	<showGui>0</showGui>
+	<fullscreen>0</fullscreen>
+	<showDebug>1</showDebug>
+	<debugVideoX>870</debugVideoX>
+	<debugVideoY>610</debugVideoY>
+	<debugVideoScaler>0.3475</debugVideoScaler>
+	<showTracking>0</showTracking>
+	<eyeDistSize>1.7825</eyeDistSize>
+	<originX>-225</originX>
+	<originY>0</originY>
+	<systemShutdownTime>0</systemShutdownTime>
+	<group />
+	<showLive>0</showLive>
+	<liveVideoX>930</liveVideoX>
+	<liveVideoY>820</liveVideoY>
+	<liveVideoScaler>0.2125</liveVideoScaler>
+	<ver>4 20180212 3fa8e3a</ver>
+	<scaler>0.8825</scaler>
+</group>
+<splitting>
+	<ver>36 20190131 1b02375</ver>
+	<fps>29</fps>
+	<showGui>0</showGui>
+	<fullscreen>0</fullscreen>
+	<showDebug>1</showDebug>
+	<debugVideoX>1190</debugVideoX>
+	<debugVideoY>340</debugVideoY>
+	<debugVideoScaler>0.145</debugVideoScaler>
+	<showLive>1</showLive>
+	<liveVideoX>470</liveVideoX>
+	<liveVideoY>0</liveVideoY>
+	<liveVideoScaler>0.586</liveVideoScaler>
+	<showTracking>1</showTracking>
+	<scaler>0.7925</scaler>
+	<originX>95</originX>
+	<originY>585</originY>
+	<systemShutdownTime>0</systemShutdownTime>
+	<appFrameRate>30</appFrameRate>
+</splitting>

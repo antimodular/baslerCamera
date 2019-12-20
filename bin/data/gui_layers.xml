@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<group>
+	<layers>
+		<outerPadding>0</outerPadding>
+		<innerPadding>54.0816</innerPadding>
+		<blendMode>0</blendMode>
+		<showBufferLayers>1</showBufferLayers>
+		<showLiveLayers>1</showLiveLayers>
+		<shuffleDuration>11.0204</shuffleDuration>
+		<layerAlpha_0>0</layerAlpha_0>
+		<layerAlpha_1>0</layerAlpha_1>
+		<layerAlpha_2>0</layerAlpha_2>
+		<layerAlpha_3>0</layerAlpha_3>
+		<liveAlphaMin>72</liveAlphaMin>
+		<liveAlphaMax>255</liveAlphaMax>
+		<maxAge>60</maxAge>
+		<minAge>17</minAge>
+		<blendSpeed>0.130842</blendSpeed>
+		<threshold>30</threshold>
+	</layers>
+	<group />
+	<lineMask>
+		<tLineWidth>2</tLineWidth>
+		<tLineAlpha>184</tLineAlpha>
+		<line_fadeInAge>24</line_fadeInAge>
+		<line_fadeOutAge>42</line_fadeOutAge>
+		<line_fadeOutDur>15</line_fadeOutDur>
+		<lineFilter>0.169898</lineFilter>
+		<lineWidth>2</lineWidth>
+		<lineAlpha>170</lineAlpha>
+	</lineMask>
+</group>
+<layers>
+	<layers>
+		<showBufferLayers>1</showBufferLayers>
+		<showLiveLayers>1</showLiveLayers>
+		<outerPadding>29.5918</outerPadding>
+		<blendMode>1</blendMode>
+		<shuffleDuration>4</shuffleDuration>
+		<blendSpeed>1</blendSpeed>
+		<liveAlphaMin>255</liveAlphaMin>
+		<liveAlphaMax>144</liveAlphaMax>
+		<layerAlpha_0>255</layerAlpha_0>
+		<layerAlpha_1>255</layerAlpha_1>
+		<layerAlpha_2>255</layerAlpha_2>
+		<layerAlpha_3>255</layerAlpha_3>
+		<layerAlpha_4>100</layerAlpha_4>
+		<layerAlpha_5>100</layerAlpha_5>
+		<layerAlpha_6>100</layerAlpha_6>
+		<layerAlpha_7>100</layerAlpha_7>
+		<layerAlpha_8>100</layerAlpha_8>
+		<x_offset>0</x_offset>
+		<squareZoom>0.605102</squareZoom>
+		<y_offset>0</y_offset>
+		<framePadding>20</framePadding>
+	</layers>
+</layers>
