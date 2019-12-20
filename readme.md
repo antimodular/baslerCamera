@@ -5,6 +5,8 @@ An example on how to use a [Basler camera](https://www.baslerweb.com/en/products
 
 Install the [pylon macOS SDK](https://www.baslerweb.com/en/products/software/pylon-macos/)
 
+Make sure to un-zip ffmpeg.zip in the bin folder in order for the recording function to work.
+
 ## Basler SDK setup
 -----
 Now follow these steps to connect to pylon SDK to your OF project:
@@ -29,6 +31,10 @@ $(PYLON_LIBRARY_DIR)/Frameworks/pylon.framework/Headers/GenICam
 Add the following Runpath Search Path for Release and Debug configurations to your build target (Build Settings -> Linking -> Runpath Search Path):
 
 $(PYLON_LIBRARY_DIR)/Frameworks
+
+## Operating systems
+-----
+Has been tested on macOS 10.14.6 with OF 0.10.1
 
 Install screenshots
 -----
