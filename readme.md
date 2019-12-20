@@ -1,17 +1,17 @@
 
-##Intro
+## Intro
 -----
 An example on how to use a [Basler camera](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace/aca1920-25uc/) with openframeworks.cc
 
 Install the [pylon macOS SDK](https://www.baslerweb.com/en/products/software/pylon-macos/)
 
-##Basler SDK setup
+## Basler SDK setup
 -----
 Now follow these steps to connect to pylon SDK to your OF project:
 (file:///Applications/pylon%20Programmer's%20Guide%20and%20API%20Reference.app/Contents/Resources/Html/pylon_programmingguide.html)
 
 
-###Common Settings for Building Applications with pylon
+### Common Settings for Building Applications with pylon
 
 This section shows the most common OS X build settings for building an application using pylon and Apple Xcode. Consult the Advanced Topics section for more information, e.g. when a different configuration is required.
 
